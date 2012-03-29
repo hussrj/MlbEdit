@@ -23,12 +23,12 @@ Partial Class MainForm
     <System.Diagnostics.DebuggerStepThrough()> _
     Private Sub InitializeComponent()
         Me.Panel1 = New System.Windows.Forms.Panel()
+        Me.InputTextBox = New System.Windows.Forms.TextBox()
         Me.InputButton = New System.Windows.Forms.Button()
         Me.TextPanel = New System.Windows.Forms.Panel()
         Me.TextSplitContainer = New System.Windows.Forms.SplitContainer()
-        Me.MlbTextBox = New System.Windows.Forms.TextBox()
         Me.TransTextBox = New System.Windows.Forms.TextBox()
-        Me.InputTextBox = New System.Windows.Forms.TextBox()
+        Me.MlbTextBox = New System.Windows.Forms.RichTextBox()
         Me.Panel1.SuspendLayout()
         Me.TextPanel.SuspendLayout()
         CType(Me.TextSplitContainer, System.ComponentModel.ISupportInitialize).BeginInit()
@@ -48,6 +48,14 @@ Partial Class MainForm
         Me.Panel1.Name = "Panel1"
         Me.Panel1.Size = New System.Drawing.Size(478, 77)
         Me.Panel1.TabIndex = 0
+        '
+        'InputTextBox
+        '
+        Me.InputTextBox.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Left), System.Windows.Forms.AnchorStyles)
+        Me.InputTextBox.Location = New System.Drawing.Point(3, 44)
+        Me.InputTextBox.Name = "InputTextBox"
+        Me.InputTextBox.Size = New System.Drawing.Size(169, 20)
+        Me.InputTextBox.TabIndex = 0
         '
         'InputButton
         '
@@ -89,16 +97,6 @@ Partial Class MainForm
         Me.TextSplitContainer.SplitterDistance = 239
         Me.TextSplitContainer.TabIndex = 0
         '
-        'MlbTextBox
-        '
-        Me.MlbTextBox.Dock = System.Windows.Forms.DockStyle.Fill
-        Me.MlbTextBox.Location = New System.Drawing.Point(0, 0)
-        Me.MlbTextBox.Multiline = True
-        Me.MlbTextBox.Name = "MlbTextBox"
-        Me.MlbTextBox.ScrollBars = System.Windows.Forms.ScrollBars.Vertical
-        Me.MlbTextBox.Size = New System.Drawing.Size(239, 287)
-        Me.MlbTextBox.TabIndex = 2
-        '
         'TransTextBox
         '
         Me.TransTextBox.Dock = System.Windows.Forms.DockStyle.Fill
@@ -109,13 +107,14 @@ Partial Class MainForm
         Me.TransTextBox.Size = New System.Drawing.Size(235, 287)
         Me.TransTextBox.TabIndex = 3
         '
-        'InputTextBox
+        'MlbTextBox
         '
-        Me.InputTextBox.Anchor = CType((System.Windows.Forms.AnchorStyles.Bottom Or System.Windows.Forms.AnchorStyles.Left), System.Windows.Forms.AnchorStyles)
-        Me.InputTextBox.Location = New System.Drawing.Point(3, 44)
-        Me.InputTextBox.Name = "InputTextBox"
-        Me.InputTextBox.Size = New System.Drawing.Size(169, 20)
-        Me.InputTextBox.TabIndex = 0
+        Me.MlbTextBox.Dock = System.Windows.Forms.DockStyle.Fill
+        Me.MlbTextBox.Location = New System.Drawing.Point(0, 0)
+        Me.MlbTextBox.Name = "MlbTextBox"
+        Me.MlbTextBox.Size = New System.Drawing.Size(239, 287)
+        Me.MlbTextBox.TabIndex = 0
+        Me.MlbTextBox.Text = ""
         '
         'MainForm
         '
@@ -131,7 +130,6 @@ Partial Class MainForm
         Me.Panel1.PerformLayout()
         Me.TextPanel.ResumeLayout(False)
         Me.TextSplitContainer.Panel1.ResumeLayout(False)
-        Me.TextSplitContainer.Panel1.PerformLayout()
         Me.TextSplitContainer.Panel2.ResumeLayout(False)
         Me.TextSplitContainer.Panel2.PerformLayout()
         CType(Me.TextSplitContainer, System.ComponentModel.ISupportInitialize).EndInit()
@@ -142,9 +140,9 @@ Partial Class MainForm
     Friend WithEvents Panel1 As System.Windows.Forms.Panel
     Friend WithEvents TextPanel As System.Windows.Forms.Panel
     Friend WithEvents TextSplitContainer As System.Windows.Forms.SplitContainer
-    Friend WithEvents MlbTextBox As System.Windows.Forms.TextBox
     Friend WithEvents TransTextBox As System.Windows.Forms.TextBox
     Friend WithEvents InputButton As System.Windows.Forms.Button
     Friend WithEvents InputTextBox As System.Windows.Forms.TextBox
+    Friend WithEvents MlbTextBox As System.Windows.Forms.RichTextBox
 
 End Class
