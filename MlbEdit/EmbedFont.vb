@@ -5,6 +5,8 @@ Imports System.Runtime.InteropServices
 Imports System.Drawing.Text
 
 Module EmbedFont
+    Private Declare Auto Function AddFontMemResourceEx Lib "Gdi32.dll" (ByVal pbFont As IntPtr, _
+            ByVal cbFont As Integer, ByVal pdv As Integer, ByRef pcFonts As Integer) As IntPtr
     Private pfc As PrivateFontCollection = Nothing
 
     ' First call loads the font and returns it. Subsequent calls just return it.
@@ -28,6 +30,10 @@ Module EmbedFont
             Marshal.Copy(My.Resources.Aegean, 0, fontMemPointer, My.Resources.Aegean.Length)
             ' Add font from memory to the private font collection
             pfc.AddMemoryFont(fontMemPointer, My.Resources.Aegean.Length)
+
+            ' Need to call AddFontMemResourceEx to ensure font is usable
+            Dim dummy As Integer = 0
+            AddFontMemResourceEx(fontMemPointer, My.Resources.Aegean.Length, 0, dummy)
 
             ' Free memory allocated for the font resource
             Marshal.FreeCoTaskMem(fontMemPointer)
