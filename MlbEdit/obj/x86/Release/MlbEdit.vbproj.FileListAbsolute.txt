@@ -1,0 +1,11 @@
+C:\Users\rob\MlbEdit\MlbEdit\bin\Release\MlbEdit.exe
+C:\Users\rob\MlbEdit\MlbEdit\bin\Release\MlbEdit.pdb
+C:\Users\rob\MlbEdit\MlbEdit\bin\Release\MlbEdit.xml
+C:\Users\rob\MlbEdit\MlbEdit\obj\x86\Release\ResolveAssemblyReference.cache
+C:\Users\rob\MlbEdit\MlbEdit\obj\x86\Release\MlbEdit.MainForm.resources
+C:\Users\rob\MlbEdit\MlbEdit\obj\x86\Release\MlbEdit.Resources.resources
+C:\Users\rob\MlbEdit\MlbEdit\obj\x86\Release\GenerateResource.read.1.tlog
+C:\Users\rob\MlbEdit\MlbEdit\obj\x86\Release\GenerateResource.write.1.tlog
+C:\Users\rob\MlbEdit\MlbEdit\obj\x86\Release\MlbEdit.exe
+C:\Users\rob\MlbEdit\MlbEdit\obj\x86\Release\MlbEdit.xml
+C:\Users\rob\MlbEdit\MlbEdit\obj\x86\Release\MlbEdit.pdb
