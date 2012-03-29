@@ -1,3 +1,5 @@
+Experimental branch
+
 Ideograms are currently input using the letter 'i' followed by the
 last two hex digits of the Unicode character code for the ideogram.
 For example, the ideogram for man would be input using "i80" in the
