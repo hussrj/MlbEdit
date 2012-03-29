@@ -1,4 +1,3 @@
-D:\Dropbox\Workspace\Visual Studio 2010\Projects\MlbEdit\MlbEdit\bin\Release\ideogramChecker.py
 D:\Dropbox\Workspace\Visual Studio 2010\Projects\MlbEdit\MlbEdit\bin\Release\MlbEdit.exe
 D:\Dropbox\Workspace\Visual Studio 2010\Projects\MlbEdit\MlbEdit\bin\Release\MlbEdit.pdb
 D:\Dropbox\Workspace\Visual Studio 2010\Projects\MlbEdit\MlbEdit\bin\Release\MlbEdit.xml

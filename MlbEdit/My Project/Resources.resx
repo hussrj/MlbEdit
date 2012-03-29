@@ -121,6 +121,9 @@
   <data name="Aegean" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Aegean.ttf;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
+  <data name="ideogramChecker" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\ideogramChecker.py;System.Byte[], mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
   <data name="MlbDictionary" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\MlbDictionary.txt;System.String, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089;utf-8</value>
   </data>

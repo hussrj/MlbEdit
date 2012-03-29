@@ -144,9 +144,7 @@
     <None Include="MlbDictionary.txt" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="ideogramChecker.py">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
+    <EmbeddedResource Include="ideogramChecker.py" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

@@ -67,6 +67,13 @@ Namespace My.Resources
             End Get
         End Property
         
+        Friend ReadOnly Property ideogramChecker() As Byte()
+            Get
+                Dim obj As Object = ResourceManager.GetObject("ideogramChecker", resourceCulture)
+                Return CType(obj,Byte())
+            End Get
+        End Property
+        
         '''<summary>
         '''  Looks up a localized string similar to a 00010000
         '''a2 00010040
