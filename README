@@ -1,6 +1,6 @@
 Ideograms are currently input using the letter 'i' followed by the
-last two hex digits of the ideograms Unicode character code. For
-example, the ideogram for man would be input using "i80" in the
+last two hex digits of the Unicode character code for the ideogram.
+For example, the ideogram for man would be input using "i80" in the
 input box since the character code for this ideogram is 00010080.
 
 Font used: The Aegean font at http://users.teilar.gr/~g1951d/
