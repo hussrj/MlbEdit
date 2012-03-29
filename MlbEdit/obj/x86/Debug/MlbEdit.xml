@@ -1,0 +1,67 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+MlbEdit
+</name>
+</assembly>
+<members>
+<member name="P:MlbEdit.My.Resources.Resources.ResourceManager">
+	<summary>
+  Returns the cached ResourceManager instance used by this class.
+</summary>
+</member><member name="P:MlbEdit.My.Resources.Resources.Culture">
+	<summary>
+  Overrides the current thread's CurrentUICulture property for all
+  resource lookups using this strongly typed resource class.
+</summary>
+</member><member name="P:MlbEdit.My.Resources.Resources.MlbDictionary">
+	<summary>
+  Looks up a localized string similar to a 00010000
+a2 00010040
+ai 00010041
+au 00010042
+e 00010001
+i 00010002
+o 00010003
+u 00010004
+da 00010005
+de 00010006
+di 00010007
+do 00010008
+du 00010009
+dwe 00010043
+dwo 00010044
+ja 0001000A
+je 0001000B
+jo 0001000D
+ka 0001000F
+ke 00010010
+ki 00010011
+ko 00010012
+ku 00010013
+ma 00010014
+me 00010015
+mi 00010016
+mo 00010017
+mu 00010018
+na 00010019
+ne 0001001A
+ni 0001001B
+no 0001001C
+nu 0001001D
+nwa 00010045
+pa 0001001E
+pe 0001001F
+pi 00010020
+po 00010021
+pu 00010022
+pu2 000 [rest of string was truncated]";.
+</summary>
+</member><member name="T:MlbEdit.My.Resources.Resources">
+	<summary>
+  A strongly-typed resource class, for looking up localized strings, etc.
+</summary>
+</member>
+</members>
+</doc>

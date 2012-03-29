@@ -1,0 +1,22 @@
+C:\Users\rob\AppData\Local\Temporary Projects\MlbEdit\bin\Debug\MlbEdit.exe
+C:\Users\rob\AppData\Local\Temporary Projects\MlbEdit\bin\Debug\MlbEdit.pdb
+C:\Users\rob\AppData\Local\Temporary Projects\MlbEdit\bin\Debug\MlbEdit.xml
+C:\Users\rob\AppData\Local\Temporary Projects\MlbEdit\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\rob\AppData\Local\Temporary Projects\MlbEdit\obj\x86\Debug\MlbEdit.Resources.resources
+C:\Users\rob\AppData\Local\Temporary Projects\MlbEdit\obj\x86\Debug\GenerateResource.read.1.tlog
+C:\Users\rob\AppData\Local\Temporary Projects\MlbEdit\obj\x86\Debug\GenerateResource.write.1.tlog
+C:\Users\rob\AppData\Local\Temporary Projects\MlbEdit\obj\x86\Debug\MlbEdit.exe
+C:\Users\rob\AppData\Local\Temporary Projects\MlbEdit\obj\x86\Debug\MlbEdit.xml
+C:\Users\rob\AppData\Local\Temporary Projects\MlbEdit\obj\x86\Debug\MlbEdit.pdb
+C:\Users\rob\AppData\Local\Temporary Projects\MlbEdit\obj\x86\Debug\MlbEdit.MainForm.resources
+D:\Dropbox\Workspace\Visual Studio 2010\Projects\MlbEdit\MlbEdit\obj\x86\Debug\MlbEdit.exe
+D:\Dropbox\Workspace\Visual Studio 2010\Projects\MlbEdit\MlbEdit\obj\x86\Debug\MlbEdit.xml
+D:\Dropbox\Workspace\Visual Studio 2010\Projects\MlbEdit\MlbEdit\obj\x86\Debug\MlbEdit.pdb
+D:\Dropbox\Workspace\Visual Studio 2010\Projects\MlbEdit\MlbEdit\bin\Debug\MlbEdit.exe
+D:\Dropbox\Workspace\Visual Studio 2010\Projects\MlbEdit\MlbEdit\bin\Debug\MlbEdit.pdb
+D:\Dropbox\Workspace\Visual Studio 2010\Projects\MlbEdit\MlbEdit\bin\Debug\MlbEdit.xml
+D:\Dropbox\Workspace\Visual Studio 2010\Projects\MlbEdit\MlbEdit\obj\x86\Debug\ResolveAssemblyReference.cache
+D:\Dropbox\Workspace\Visual Studio 2010\Projects\MlbEdit\MlbEdit\obj\x86\Debug\MlbEdit.MainForm.resources
+D:\Dropbox\Workspace\Visual Studio 2010\Projects\MlbEdit\MlbEdit\obj\x86\Debug\MlbEdit.Resources.resources
+D:\Dropbox\Workspace\Visual Studio 2010\Projects\MlbEdit\MlbEdit\obj\x86\Debug\GenerateResource.read.1.tlog
+D:\Dropbox\Workspace\Visual Studio 2010\Projects\MlbEdit\MlbEdit\obj\x86\Debug\GenerateResource.write.1.tlog
